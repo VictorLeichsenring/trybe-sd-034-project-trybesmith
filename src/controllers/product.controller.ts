@@ -8,12 +8,12 @@ async function create(req: Request, res: Response) {
   return res.status(mapStatusHTTP(status)).json(data);
 }
 
-// async function getAll(req: Request, res: Response) {
-//   const { status, data } = await productService.getAll();
-//   return res.status(mapStatusHTTP(status)).json(data);
-// }
+async function getAll(req: Request, res: Response) {
+  const { status, data } = await productService.getAll();
+  return res.status(mapStatusHTTP(status)).json(data);
+}
 
 export default {
   create,
-  // getAll,
+  getAll,
 };
