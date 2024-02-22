@@ -1,4 +1,3 @@
-// comentario para commit
 import express from 'express';
 
 const app = express();
