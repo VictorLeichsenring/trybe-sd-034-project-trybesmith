@@ -6,3 +6,8 @@ export type User = {
   password: string;
   productIds?: number[];
 };
+
+export type UserInput = {
+  username: string;
+  productIds?: number[];
+};

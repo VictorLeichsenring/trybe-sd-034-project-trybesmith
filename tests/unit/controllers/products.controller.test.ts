@@ -4,9 +4,6 @@ import sinonChai from 'sinon-chai';
 import { Request, Response } from 'express';
 import productService from '../../../src/services/product.service';
 import productController from '../../../src/controllers/product.controller';
-import { ServiceResponse } from '../../../src/types/ServiceResponse';
-import { Product } from '../../../src/types/Product';
-import { ProductSequelizeModel } from '../../../src/database/models/product.model';
 import ProductModel from '../../../src/database/models/product.model';
 chai.use(sinonChai);
 
